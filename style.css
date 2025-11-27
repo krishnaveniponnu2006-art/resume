@@ -1,9 +1,46 @@
-h2,h4{
-
-    font-family: 'Times New Roman', Times, serif;
+h1{
+     text-align: center;
+     color:darkblue;
+     margin-bottom: 5px;
 }
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
     margin:auto;
-    background-color: white;
+    background-color:whitesmoke;
+    margin:0%;
+    padding:0%;
+}
+.container{
+    width: 80%;
+    max-width: 800px;
+    background: white;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0, 0, 1);
+}
+h3{
+color:  rgb(48,63,159);
+margin-top: 30px;
+border-left: 4px solid darkblue;
+padding-left: 10px;
+
+}
+.info{
+    text-align:center;
+    font-size: 15px;
+color: dimgray;
+}
+p{
+    line-height: 1.6;
+    color:darkgrey;
+}
+strong{
+    color:black;
+}
+hr{
+    border:none;
+    height: 1p;
+    background: gainsboro;
+    margin: 25px 0;
 }
